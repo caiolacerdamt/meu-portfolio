@@ -107,7 +107,7 @@ textarea:focus::placeholder {
 .box-contatos {
     display: flex;
     flex-direction: column;
-    padding-bottom: 100px;
+    padding-bottom: 70px;
 }
 
 .logo {
@@ -175,12 +175,18 @@ textarea:focus::placeholder {
     .box-contatos {
         flex-direction: column-reverse;
         gap: 20px;
+        padding-bottom: 30px;
     }
 
     .links-contatos {
         width: 100%;
         justify-content: center;
+        align-items: center;
         height: 200px;
+    }
+
+    .links-contatos a {
+        gap: 20px;
     }
 
     .links-contatos a img {
@@ -190,7 +196,7 @@ textarea:focus::placeholder {
     .links-contatos a span {
         width: 100%;
         font-size: 24px;
-        text-align: justify;
+        text-align: center;
     }
 
     .logo {
