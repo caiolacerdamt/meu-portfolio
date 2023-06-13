@@ -1,0 +1,29 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+@font-face {
+    font-family: Quantum;
+    src: url("../fonts/Quantum.otf");
+}
+
+@font-face {
+    font-family: Blouse;
+    src: url("../fonts/Blouse.ttf");
+}
+
+:root {
+    --h1-color: #DCB187;
+    --bg-color: #043C4B;
+    --bg-color-second: #363753;
+    --h1-color-second: #5cd2c6;
+    --text-color: #DFE3EE;
+    --font-primaria: Quantum;
+    --font-secundaria: Blouse;
+}
