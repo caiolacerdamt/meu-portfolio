@@ -149,19 +149,29 @@
 
         <section id="contato">
             <div class="formulario">
-                <form action="">
+                <form action="https://formsubmit.co/caiolacerdamt@gmail.com" method="POST">
+                    
                     <h2>CONTATO</h2>
                     <div class="input-box">
-                        <input type="text" name="nome" id="nome" class="input-user" required />
+                        <input type="text" name="name" id="nome" class="input-user" required />
                         <label for="nome" class="label-input">NOME</label>
                     </div>
                     <div class="input-box">
                         <input type="text" name="email" id="email" class="input-user" required />
                         <label for="email" class="label-input">EMAIL</label>
                     </div>
-                    <textarea name="mensagem" id="mensagem" cols="30" rows="10"
+                    <textarea name="message" id="mensagem" cols="30" rows="10"
                         placeholder="Digite sua mensagem"></textarea>
                     <input type="submit" name="submit" id="submit" />
+                    <!--<input type="hidden" name="_next" value="http://127.0.0.1:5500/PORTF%C3%93LIO%20ATUAL/thanks.html/">--> 
+                   
+                    <input type="hidden" name="_subject" value="Nova Mensagem">
+                    <input type="text" name="_honey" style="display: none;">
+                    <input type="hidden" name="_captcha" value="false">
+
+
+                    
+
                 </form>
             </div>
 
