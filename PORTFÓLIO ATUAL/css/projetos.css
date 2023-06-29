@@ -87,7 +87,8 @@
     display: none;
 }
 
-.sobre-o-projeto a {
+.sobre-o-projeto a{
+    position: relative;
     width: 140px;
     height: 40px;
     background: var(--h1-color-second);
@@ -100,7 +101,6 @@
     padding-top: 8px;
     transition: 1s;
 }
-
 
 .descricao-do-projeto1,
 .descricao-do-projeto2,

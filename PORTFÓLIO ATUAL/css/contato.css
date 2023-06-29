@@ -3,7 +3,7 @@
     justify-content: space-around;
     align-items: center;
     gap: 20px;
-    padding: 32px 32px 0px 32px;
+    padding: 32px;
 }
 
 .formulario {
@@ -23,6 +23,7 @@ form h2 {
     text-align: center;
     font-family: var(--font-primaria);
     color: var(--text-color);
+    margin-bottom: 20px;
 }
 
 .input-box {
@@ -105,33 +106,42 @@ textarea:focus::placeholder {
 }
 
 .box-contatos {
+    height: 100%;
     display: flex;
     flex-direction: column;
-    padding-bottom: 70px;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    
 }
 
-.logo {
-    padding-top: 45px;
-}
-
-.logo a {
-    text-decoration: none;
-    color: var(--text-color);
-}
 
 #logo {
-    font-family: var(--font-primaria);
-    font-size: 100px;
-    letter-spacing: 10px;
-    text-align: center;
-    
     text-shadow: 0 0 10px #000000,
         0 0 20px #000000;
-    transition: 1s;
 }
 
-#logo:hover {
+#logo img {
+    width: 200px;
+    height: 200px;
+    transition: 1s;
+    animation: animationLogo 4s infinite alternate ease-in-out;
+}
+
+#logo img:hover {
     transform: scale(1.06);
+}
+
+@keyframes animationLogo {
+    0% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(-20px);
+    }
+    100% {
+        transform: translateY(0);
+    }
 }
 
 
@@ -140,8 +150,8 @@ textarea:focus::placeholder {
     height: 300px;
     display: flex;
     flex-direction: column;
-    justify-content: flex-end;
-    gap: 30px;
+    justify-content: center;
+    gap: 20px;
 }
 
 .links-contatos a {
@@ -153,7 +163,7 @@ textarea:focus::placeholder {
     display: flex;
     align-items: center;
     gap: 30px;
-    transition: 1s;
+    transition: .5s;
 }
 
 .links-contatos a span {
@@ -307,7 +317,6 @@ textarea:focus::placeholder {
     }
 
     .links-contatos {
-        margin-top: 80px;
         gap: 50px;
     }
 
