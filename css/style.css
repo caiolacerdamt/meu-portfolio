@@ -92,6 +92,8 @@ a:hover {
     margin-top: 20px;
 }
 
+
+/**
 @media (min-width: 1023px) and (max-width: 1025px) {
 
     h3 {
@@ -198,5 +200,79 @@ a:hover {
         -webkit-box-reflect: unset;
     }
 
+
+}
+**/ 
+
+@media (max-width: 767px) {
+
+    #apresentacao {
+        margin-top: 50px;
+    }
+
+    h3.oi-eu-sou {
+        text-align: center;
+        font-size: 20px;
+        -webkit-box-reflect: unset;
+        margin-bottom: 20px;
+    }
+
+    .separacao {
+        width: 100%;
+    }
+
+    .separacao a {
+        display: none;
+    }
+    
+    h1 {
+        width: 100%;
+        font-size: 50px;
+    }
+
+    .separacao h1 {
+        text-align: center;
+    }
+
+    h1.developer {
+        width: 100%;
+        text-align: center;
+        margin: 0;
+        padding: 0;
+    }
+
+    h3.sobre {
+        -webkit-box-reflect: unset;
+        font-size: 16px;
+        margin-top: 30px;
+    }
+
+    .button-none {
+        display: flex;
+        gap: 60px;
+    }
+
+    img.button-none {
+        width: 50px;
+        height: 50px;
+    }
+
+    .none {
+        display: flex;
+        justify-content: center;
+        padding-bottom: 40px;
+        animation: animationLogo 4s infinite alternate ease-in-out;
+    }
+
+    .none img {
+        width: 160px;
+        height: 160px;
+    }
+
+    .sobre-links {
+        display: flex;
+        flex-direction: column-reverse;
+        gap: 40px;
+    }
 
 }
