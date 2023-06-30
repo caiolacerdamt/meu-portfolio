@@ -7,11 +7,12 @@ body {
 
 #apresentacao {
     width: 100%;
-    height: 100vh;
+    height: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
     align-content: center;
+    padding: 32px;
 }
 
 .eu {
@@ -149,18 +150,13 @@ a:hover {
 @media (min-width: 200px) and (max-width: 539px) {
 
     h3 {
-        font-size: 20px;
+        font-size: 16px;
         text-align: center;
     }
 
     h3.oi-eu-sou {
-        margin-bottom: 50px;
+        margin-bottom: 10px;
     }
-
-    h3.sobre {
-        padding: 10px;
-    }
-
 
     h1 {
         width: 100%;
@@ -169,7 +165,7 @@ a:hover {
     }
 
     h1.developer {
-        margin-bottom: 50px;
+        margin-bottom: 20px;
         padding: 0;
         text-align: center;
     }
@@ -182,7 +178,7 @@ a:hover {
     .none {
         display: flex;
         justify-content: center;
-        margin-bottom: 60px;
+        margin-bottom: 20px;
     }
 
     .button-none {
