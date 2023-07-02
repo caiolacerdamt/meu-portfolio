@@ -188,6 +188,7 @@ h3.sobre-mobile {
   .button-none {
     display: flex;
     gap: 60px;
+    margin: 0;
   }
 
   img.button-none {
