@@ -28,8 +28,6 @@ const revealMap = {
   "#sobre-o-projeto1": scrollreveal,
   "#exemplo-do-projeto2": scrollreveal,
   "#sobre-o-projeto2": scrollreveal,
-  ".formulario": scrollLeft,
-  ".box-contatos": scrollRight,
 };
 
 for (const selector in revealMap) {
@@ -57,7 +55,7 @@ btn.addEventListener("click", () => {
     projeto3Element.scrollIntoView({ behavior: "smooth" });
   }
 
-  sr.reveal(".formulario", scrollLeft);
-  sr.reveal(".box-contatos", scrollRight);
+  sr.reveal(".formulario", scrollreveal);
+  sr.reveal(".box-contatos", scrollreveal);
 });
 
