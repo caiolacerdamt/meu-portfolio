@@ -201,6 +201,8 @@ textarea:focus::placeholder {
 
     .links-contatos a img {
         display: flex;
+        width: 40px;
+        height: 40px;
     }
 
     .links-contatos a span {
@@ -240,6 +242,8 @@ textarea:focus::placeholder {
 
     .links-contatos a img {
         display: flex;
+        width: 40px;
+        height: 40px;
     }
 
     .links-contatos a span {
