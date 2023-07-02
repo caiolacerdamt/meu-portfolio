@@ -201,19 +201,9 @@ h3.sobre-mobile {
 }
 
 @media (width: 375px) and (height: 667px) {
-  #apresentacao {
-    margin-top: 80px;
-  }
 
   .none {
-    margin-top: 100px;
+    margin-top: 30px;
   }
 
-  .sobre-links {
-    gap: 30px;
-  }
-
-  h3.sobre {
-    margin-top: 20px;
-  }
 }
