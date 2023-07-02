@@ -260,13 +260,13 @@ a:hover {
     .none {
         display: flex;
         justify-content: center;
-        padding-bottom: 40px;
+        padding-bottom: 20px;
         animation: animationLogo 4s infinite alternate ease-in-out;
     }
 
     .none img {
-        width: 160px;
-        height: 160px;
+        width: 140px;
+        height: 140px;
     }
 
     .sobre-links {
@@ -292,7 +292,7 @@ a:hover {
     }
 
     .sobre-links {
-        gap: 80px;
+        gap: 100px;
     }
 
     h3.sobre {
