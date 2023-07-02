@@ -272,7 +272,8 @@ a:hover {
     .sobre-links {
         display: flex;
         flex-direction: column-reverse;
-        gap: 40px;
+        gap: 80px;
+        margin-top: 20px;
     }
 
     .mais a, .mais-desktop a {
