@@ -25,6 +25,7 @@ const scrollRight = {
 const revealMap = {
   ".eu": scrollreveal,
   ".sobre-mobile": scrollreveal,
+  "#titulo": scrollreveal,
   "#exemplo-do-projeto1": scrollreveal,
   "#sobre-o-projeto1": scrollreveal,
   "#exemplo-do-projeto2": scrollreveal,
